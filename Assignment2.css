@@ -1,0 +1,59 @@
+/*
+
+	IT 2320 - 	Interactive Internet Programming
+	Assignment 2
+	
+	Stylesheet of web page interest of mine
+	Author: 	D. Ceglia
+	Date:		9/9/17
+
+	
+	Filename: Assignment2.css
+	
+*/
+	
+
+.body-paragraph {
+	font: 1.0em
+		  Quicksand, sans-serif;
+	margin: 5px 10px 0px 10px;
+}
+
+header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#299a0b+0,299a0b+100;Green+Flat+%231 */
+	background: #299a0b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #299a0b 0%, #299a0b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #299a0b 0%,#299a0b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #299a0b 0%,#299a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=0 ); /* IE6-9 */
+	
+	color: yellow;
+	font: bold 1.5em
+		  Quicksand, sans-serif;
+	text-align: center;
+}
+
+div.col-1-2 {
+	width: 50%;
+}
+
+
+div.row {
+	clear: both;
+}
+
+div.row::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+div[class^="col-"] {
+	float: left;
+}
+
+
+
+
+
+
